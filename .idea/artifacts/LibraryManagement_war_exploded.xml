@@ -1,0 +1,49 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="LibraryManagement:war exploded">
+    <output-path>$PROJECT_DIR$/target/LibraryManagement-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>LibraryManagement</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="LibraryManagement" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.5" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.5" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.5" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.5" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.5" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.5" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.3.5" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.3.5" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.5" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.5" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.23" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-dbcp2:2.8.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.8.1" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.45" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-annotations-api:9.0.45" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-jasper:9.0.45" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.45" />
+          <element id="library" level="project" name="Maven: org.eclipse.jdt:ecj:3.18.0" />
+          <element id="library" level="project" name="Maven: io.pebbletemplates:pebble-spring5:3.1.2" />
+          <element id="library" level="project" name="Maven: io.pebbletemplates:pebble:3.1.2" />
+          <element id="library" level="project" name="Maven: org.unbescape:unbescape:1.1.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/LibraryManagement-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="LibraryManagement/web/Web" />
+    </root>
+  </artifact>
+</component>

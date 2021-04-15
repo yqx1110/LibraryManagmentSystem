@@ -1,0 +1,17 @@
+{% extends "_base.html" %}
+
+{% block navbar %}
+<a href="/books">图书查询</a>
+<a href="/borrow-history">我的借还</a>
+<a href="/reset-password">密码修改</a>
+{% endblock %}
+
+
+{% block main %}
+{% if user == null %}
+<h3>Welcome!</h3>
+<p><a href="/signin">Sign In</a> or <a href="/register">Register</a>
+{% else %}
+<h3>Welcome {{ user.name }}!</h3>
+{% endif %}
+{% endblock %}
